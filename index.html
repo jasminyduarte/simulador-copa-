@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--CSS PRINCIPAL-->
+    <link rel="stylesheet" href="css/principal.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+</head>
+
+<body class="fundo">
+    <!--Menu-->
+    <nav>
+        <div class="nav-wrapper">
+            <p class="center-align white-text">Campeonato Copa do mundo
+                <p/>
+                <ul id="slide-out" class="side-nav fixed">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="img/back.jpg">
+                            </div>
+                            <a href="#!user">
+                                <img class="circle" src="img/teste.jpg">
+                            </a>
+                            <a href="#!name">
+                                <span class="white-text name">Administrador</span>
+                            </a>
+                            <a href="#!email">
+                                <span class="white-text email">teste@gmail.com</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="subheader green-text darken-4-tex">Classificatórias</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="oitavas.html">
+                            <i class="material-icons green-text darken-4-text">filter_8</i>Fase de Oitavas</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="quartas.html">
+                            <i class="material-icons green-text darken-4-text">filter_4</i>Fase de Quartas</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="semi.html">
+                            <i class="material-icons green-text darken-4-text">filter_2</i>Fase de Semi-finais</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="terceiro.html">
+                            <i class="material-icons green-text darken-4-text">filter_3</i>Disputa 3º Lugar</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="final.html">
+                            <i class="material-icons green-text darken-4-text">filter_1</i>Final</a>
+                    </li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li>
+                        <a class="subheader green-text darken-4-tex">Adiciona</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" class="waves-effect" href="#!">
+                            <i class="material-icons green-text darken-4-text">add</i>Nova Tabela</a>
+                    </li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+        </div>
+    </nav>
+
+    <div class="container sls">
+        <div class="row">
+            <div class="col s12">
+                <!--Slides com as tabelas-->
+                <div class="carousel right-align">
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                        <h2 class="center-align green-text darken-4-text">Grupo A</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                        <h2 class="center-align green-text darken-4-text">Grupo B</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                        <h2 class="center-align green-text darken-4-text">Grupo C</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                        <h2 class="center-align green-text darken-4-text">Grupo D</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                            <h2 class="center-align green-text darken-4-text">Grupo E</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                            <h2 class="center-align green-text darken-4-text">Grupo F</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                            <h2 class="center-align green-text darken-4-text">Grupo G</h2>
+                    </a>
+                    <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
+                            <h2 class="center-align green-text darken-4-text">Grupo H</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="principal">
+        <div class="row">
+            <div class="col s4"></div>
+            <form class="col s4 z-depth-3 right-align white">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="a">Grupo A</option>
+                            <option value="b">Grupo B</option>
+                            <option value="c">Grupo C</option>
+                            <option value="d">Grupo D</option>
+                            <option value="e">Grupo E</option>
+                            <option value="f">Grupo F</option>
+                            <option value="g">Grupo G</option>
+                            <option value="h">Grupo H</option>
+                        </select>
+                        <label>Escolha os grupos</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="" disabled selected>Escolha Time</option>
+                            <option value="1">Bra</option>
+                            <option value="2">Ale</option>
+                            <option value="3">Ingla</option>
+                            <option value="3">Espa</option>
+                            <option value="3">Fran</option>
+                            <option value="3">Portu</option>
+                            <option value="3">Jap</option>
+                            <option value="3">Méxi</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row" onclick="Selecionado()">
+                    <a id="adiciona" class="waves-effect waves-light btn  orange darken-4">Adiciona</a>
+                </div>
+            </form>
+            <!--Tabela -->
+            <div class="col s4 right-align">
+                <div class="box-tabela z-depth-3">
+                    <table class="striped bordered">
+                        <thead>
+                            <tr>
+                                <th id="nometabela" class="center-align green darken-4 white-text">Grupo A</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="nometimetable"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/principal.js"></script>
+    <script src="js/tabela-dinamica.js"></script>
+
+</body>
+
+</html>

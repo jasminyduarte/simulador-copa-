@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    color: #1b5e20;
+    margin-left: 90px;
+}
+
+input[type=number]:not(.browser-default){
+    border: 1px solid #9e9e9e !important;
+    width: 40px !important;
+    height: 30px !important;
+}
+.box-1{
+    border: 1px solid #9e9e9e;
+    padding: 10px;
+    margin: 10px;
+}
+.box-1 p {
+    color: #1b5e20;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box-1 span{
+    font-size: 25px;
+    margin-top: 45px;
+}
+.box-gol{
+    margin-top: 30px;
+}

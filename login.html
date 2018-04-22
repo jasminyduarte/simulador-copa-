@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Logi</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+        <form class="login-form">
+            <input id="nome" type="text" placeholder="email"/>
+            <input id="senha" type="password" placeholder="senha"/>
+            <button><a id="autenticar" onclick="logar()" href="">Login</a></button>
+            <p class="message">Não é registrado? <a href="#">Registra-se</a></p>
+        </form>
+    </div>
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/autenticacao.js"></script>
+
+</body>
+</html>
