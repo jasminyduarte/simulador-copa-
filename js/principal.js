@@ -16,6 +16,7 @@ $(document).ready(function() {
 function Selecionado(){
     $("select option:selected").each(function() {
         var sele = $(this).val();
+        console.log(sele);
         var Nome_Tabela =  $('#nometabela');
         var Nome_Time_input = $('#nometime').val();
         var Nome_time = $('.nometimetable');
@@ -57,4 +58,19 @@ $(document).ready(function(){
         onOpen: function(el) { },
       onClose: function(el) {}, // A function to be called when sideNav is closed
     });
+});
+
+
+
+//Pegando o valor do input e colocando na tabela
+$('input').keyup(function(){
+    //pegando o atual input
+    var gol = $(this).val();
+   console.log(gol)
+
+    //pegando referencia da tabela
+    var vitoria_table = $('.vitoria'); 
+    var jogada_table = $('.jogada');
+    var ponto_table = $('.ponto');
+
 });
