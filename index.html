@@ -79,7 +79,8 @@
 
     <div class="container sls">
         <div class="row">
-            <div class="col s12">
+            <div class="col s4"></div>
+            <div class="col s6">
                 <!--Slides com as tabelas-->
                 <div class="carousel right-align">
                     <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
@@ -95,16 +96,16 @@
                         <h2 class="center-align green-text darken-4-text">Grupo D</h2>
                     </a>
                     <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
-                            <h2 class="center-align green-text darken-4-text">Grupo E</h2>
+                        <h2 class="center-align green-text darken-4-text">Grupo E</h2>
                     </a>
                     <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
-                            <h2 class="center-align green-text darken-4-text">Grupo F</h2>
+                        <h2 class="center-align green-text darken-4-text">Grupo F</h2>
                     </a>
                     <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
-                            <h2 class="center-align green-text darken-4-text">Grupo G</h2>
+                        <h2 class="center-align green-text darken-4-text">Grupo G</h2>
                     </a>
                     <a onclick="apaga()" class="carousel-item" href="grupodetalhe.html">
-                            <h2 class="center-align green-text darken-4-text">Grupo H</h2>
+                        <h2 class="center-align green-text darken-4-text">Grupo H</h2>
                     </a>
                 </div>
             </div>
@@ -131,22 +132,46 @@
                         <label>Escolha os grupos</label>
                     </div>
                     <div class="input-field col s6">
-                        <select>
-                            <option value="" disabled selected>Escolha Time</option>
-                            <option value="1">Bra</option>
-                            <option value="2">Ale</option>
-                            <option value="3">Ingla</option>
-                            <option value="3">Espa</option>
-                            <option value="3">Fran</option>
-                            <option value="3">Portu</option>
-                            <option value="3">Jap</option>
-                            <option value="3">Méxi</option>
+                        <select id="times">
+                            <option value="" disabled selected>Times</option>
+                            <option value="Bra">Bra</option>
+                            <option value="Ale">Ale</option>
+                            <option value="Ingla">Ingla</option>
+                            <option value="Espa">Espa</option>
+                            <option value="Fran">Fran</option>
+                            <option value="Port">Portu</option>
+                            <option value="Jap">Jap</option>
+                            <option value="Mex">Méxi</option>
+                            <option value="Rus">Rus</option>
+                            <option value="Irã">Irã</option>
+                            <option value="CorS">CorS</option>
+                            <option value="Arábi">Arábi</option>
+                            <option value="Aust">Aust</option>
+                            <option value="Tuni">Tuni</option>
+                            <option value="Nige">Nige</option>
+                            <option value="Marro">Marro</option>
+                            <option value="Seneg">Seneg</option>
+                            <option value="Egit">Egit</option>
+                            <option value="CosR">CosR</option>
+                            <option value="Panam">Panam</option>
+                            <option value="Urug">Urug</option>
+                            <option value="Arge">Arge</option>
+                            <option value="Colô">Colô</option>
+                            <option value="Per">Per</option>
+                            <option value="Serv">Serv</option>
+                            <option value="Polô">Polô</option>
+                            <option value="Bel">Bel</option>
+                            <option value="Islân">Islân</option>
+                            <option value="Sui">Sui</option>
+                            <option value="Croa">Croa</option>
+                            <option value="Sue">Sue</option>
+                            <option value="Dina">Dina</option>
                         </select>
 
                     </div>
                 </div>
                 <div class="row" onclick="Selecionado()">
-                    <a id="adiciona" class="waves-effect waves-light btn  orange darken-4 pulse">Adiciona</a>
+                    <a id="adiciona" class="waves-effect waves-light btn  orange darken-4">Adiciona</a>
                 </div>
             </form>
             <!--Tabela -->
@@ -158,10 +183,7 @@
                                 <th id="nometabela" class="center-align green darken-4 white-text">Grupo A</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td class="nometimetable"></td>
-                            </tr>
+                        <tbody class="pai">
 
                         </tbody>
                     </table>
