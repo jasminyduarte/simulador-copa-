@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--CSS PRINCIPAL-->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/grupodetalhe.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!--Menu-->
+    <nav>
+        <div class="nav-wrapper">
+            <p class="center-align white-text">Fases de Grupos
+                <p/>
+                <ul id="slide-out" class="side-nav fixed">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="img/back.jpg">
+                            </div>
+                            <a href="#!user">
+                                <img class="circle" src="img/teste.jpg">
+                            </a>
+                            <a href="#!name">
+                                <span class="white-text name">Administrador</span>
+                            </a>
+                            <a href="#!email">
+                                <span class="white-text email">teste@gmail.com</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="subheader green-text darken-4-tex">Classificatórias</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="oitavas.html">
+                            <i class="material-icons green-text darken-4-text">filter_8</i>Fase de Oitavas</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="quartas.html">
+                            <i class="material-icons green-text darken-4-text">filter_4</i>Fase de Quartas</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="semi.html">
+                            <i class="material-icons green-text darken-4-text">filter_2</i>Fase de Semi-finais</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="terceiro.html">
+                            <i class="material-icons green-text darken-4-text">filter_3</i>Disputa 3º Lugar</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" href="final.html">
+                            <i class="material-icons green-text darken-4-text">filter_1</i>Final</a>
+                    </li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li>
+                        <a class="subheader green-text darken-4-tex">Adiciona</a>
+                    </li>
+                    <li>
+                        <a class="green-text darken-4-text" class="waves-effect" href="#!">
+                            <i class="material-icons green-text darken-4-text">add</i>Nova Tabela</a>
+                    </li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+        </div>
+    </nav>
+
+
+
+    <div class="principal">
+        <div class="row">
+            <div class="col s3"></div>
+            <!--Tabela -->
+            <div class="col s4 right-align">
+                <div class="box-tabela z-depth-3">
+                    <table class="striped bordered">
+                        <thead>
+                            <tr>
+                                <th id="nometabela" class="center-align green darken-4 white-text">Grupo B</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="box-times">
+                                        <div class="rodada">
+                                            <p>01º Rodada</p>
+                                        </div>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>RUS</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>ARA</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div>
+                                    <div class="box-times">
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>EGI</option>
+
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>URU</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="box-times">
+                                        <div class="rodada">
+                                            <p>02º Rodada</p>
+                                        </div>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>RUS</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>EGI</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div>
+                                    <div class="box-times">
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>URU</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>ARA</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="box-times">
+                                        <div class="rodada">
+                                            <p>03º Rodada</p>
+                                        </div>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>URU</option>
+                                               
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>RUS</option>
+                                    
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div>
+                                    <div class="box-times">
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>ARA</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input id="gol2" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                        <span>X</span>
+                                        <div class="box-select">
+                                            <select>
+                                                <option value="" disabled selected>EGI</option>
+                                        </div>
+                                        <div class="input-field col s4 box-gol">
+                                            <input class="gol" type="number">
+                                            <label for="gol"></label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--Classificação-->
+            <div class="col s4 right-align">
+                <div class="box-tabela z-depth-3">
+                    <table class="striped bordered">
+                        <thead>
+                            <tr>
+                                <th class="center-align green darken-4 white-text">Classificação</th>
+                                <th class="center-align green darken-4 white-text">P</th>
+                                <th class="center-align green darken-4 white-text">J</th>
+                                <th class="center-align green darken-4 white-text">V</th>
+                                <th class="center-align green darken-4 white-text">E</th>
+                                <th class="center-align green darken-4 white-text">D</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Espanha</td>
+                                <td class="ponto">0</td>
+                                <td class="jogada">0</td>
+                                <td class="vitoria">0</td>
+                                <td class="empate">0</td>
+                                <td class="derota">0</td>
+                            </tr>
+                            <tr>
+                                <td>Irã</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Marrocos</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Portugual</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>4
+    <script src="js/principal.js"></script>
+    <script src="js/tabela-dinamica.js"></script>
+
+</body>
+
+</html>
