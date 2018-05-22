@@ -101,7 +101,7 @@
                                         </div>
                                         <div  class="box-select">
                                             <select>
-                                                <option class="rus1"  value="rus">RUS</option>
+                                                <option class="rus1" id="rus1"  value="rus">RUS</option>
 
                                             </select>
                                         </div>
@@ -151,9 +151,9 @@
                                         <div class="rodada">
                                             <p>02º Rodada</p>
                                         </div>
-                                        <div class="box-select">
+                                        <div class="box-select segunda">
                                             <select>
-                                                <option class="rus1" value="" disabled selected>RUS</option>
+                                                <option id="rus2" value="rus">RUS</option>
                                             </select>
                                         </div>
                                         <div class="input-field col s4 box-gol" id="5">
@@ -161,37 +161,37 @@
                                             <label for="gol"></label>
                                         </div>
                                         <span>X</span>
-                                        <div class="box-select">
+                                        <div class="box-select segunda">
                                             <select>
-                                                <option class="egi1" value="" disabled selected>EGI</option>
+                                                <option id="egi2" value="egi">EGI</option>
 
                                             </select>
                                         </div>
                                         <div class="input-field col s4 box-gol" id="6">
-                                            <input class="gol2" type="number" onkeyup="tabela1()">
+                                            <input class="gol2" type="number" onkeyup="tabela3()">
                                             <label for="gol"></label>
                                         </div>
                                     </div>
                                     <div class="box-times">
                                         <div class="box-select">
                                             <select>
-                                                <option class="uru1" value="" disabled selected>URU</option>
+                                                <option class="uru1" value="uru" disabled selected>URU</option>
 
                                             </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol uru_pai ">
+                                        <div class="input-field col s4 box-gol"id="7">
                                             <input class="gol1" type="number">
                                             <label for="gol"></label>
                                         </div>
                                         <span>X</span>
                                         <div class="box-select">
                                             <select>
-                                                <option class="ara1" value="" disabled selected>ARA</option>
+                                                <option class="ara1" value="ara" disabled selected>ARA</option>
 
                                             </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol ara_pai">
-                                            <input class="gol2" type="number" onkeyup="tabela()">
+                                        <div class="input-field col s4 box-gol" id="8">
+                                            <input class="gol2" type="number" onkeyup="tabela4()">
                                             <label for="gol"></label>
                                         </div>
                                     </div </td>
@@ -205,46 +205,52 @@
                                         </div>
                                         <div class="box-select">
                                             <select>
-                                                <option class="uru1" value="" disabled selected>URU</option>
+                                                <option class="uru1" value="uru">URU</option>
 
                                             </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol uru_pai">
+                                        <div class="input-field col s4 box-gol" id="9">
                                             <input class="gol1" type="number">
                                             <label for="gol"></label>
                                         </div>
                                         <span>X</span>
                                         <div class="box-select">
                                             <select>
-                                                <option class="rus1" value="" disabled selected>RUS</option>
+                                                <option class="rus1" value="rus">RUS</option>
 
                                             </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol rus_pai">
-                                            <input class="gol2" type="number" onkeyup="">
+                                        <div class="input-field col s4 box-gol" id="10">
+                                            <input class="gol2" type="number" onkeyup="tabela5()">
                                             <label for="gol"></label>
                                         </div>
                                     </div>
+
                                     <div class="box-times">
+                                    
                                         <div class="box-select">
                                             <select>
-                                                <option class="ara1" value="" disabled selected>ARA</option>
+                                                <option class="ara1" value="ara" disabled selected>ARA</option>
+
                                             </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol ara_pai">
+                                        <div class="input-field col s4 box-gol" id="11">
                                             <input class="gol1" type="number">
                                             <label for="gol"></label>
                                         </div>
                                         <span>X</span>
                                         <div class="box-select">
                                             <select>
-                                                <option class="egi1" value="" disabled selected>EGI</option>
+                                                <option class="egi1" value="egi" disabled selected>EGI</option>
+
+                                            </select>
                                         </div>
-                                        <div class="input-field col s4 box-gol egi_pai">
-                                            <input class="gol2" type="number" onkeyup="tabela2()">
+                                        <div class="input-field col s4 box-gol" id="12">
+                                            <input class="gol2" type="number" onkeyup="tabela6()">
                                             <label for="gol"></label>
                                         </div>
                                     </div>
+                
                                 </td>
                             </tr>
 
