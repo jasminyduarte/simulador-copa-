@@ -22,3 +22,8 @@
 .fundo{
  background-image: url(../img/3.jpg);
 }
+
+.btn{
+    text-transform: initial !important;
+}
+

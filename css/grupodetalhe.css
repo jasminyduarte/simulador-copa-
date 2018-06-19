@@ -39,4 +39,7 @@ input[type=number]:not(.browser-default){
     height: 30px !important;
 }
 
-
+.botao .proximo {
+    margin-right: 18px !important;
+    margin-left: 10px !important;
+}
