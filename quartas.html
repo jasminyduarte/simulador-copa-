@@ -91,13 +91,12 @@
                 <p>Quartas 1</p>
                 <div class="row">
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time1" type="text" class="validate clas">
+                        <label for="time1"></label>
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="1">
+                        <input class="gol1" type="number">
                         <label for="gol"></label>
                     </div>
 
@@ -105,15 +104,14 @@
                         <span>X</span>
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="2">
+                        <input class="gol2" type="number"  onkeyup="vencedor1()">
                         <label for="gol"></label>
                     </div>
 
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time2" type="text" class="validate clas">
+                        <label for="time2"></label>
                     </div>
                 </div>
             </div>
@@ -122,13 +120,13 @@
                 <p>Quartas 2</p>
                 <div class="row">
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time3" type="text" class="validate clas">
+                        <label for="time3"></label>
+
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="3">
+                        <input class="gol1" type="number">
                         <label for="gol"></label>
                     </div>
 
@@ -136,15 +134,15 @@
                         <span>X</span>
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="4">
+                        <input class="gol2" type="number" onkeyup="vencedor2()">
                         <label for="gol"></label>
                     </div>
 
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time4" type="text" class="validate clas">
+                        <label for="time4"></label>
+
                     </div>
                 </div>
             </div>
@@ -153,13 +151,13 @@
                 <p>Quartas 3</p>
                 <div class="row">
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time5" type="text" class="validate clas">
+                        <label for="time5"></label>
+
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="5">
+                        <input class="gol1" type="number">
                         <label for="gol"></label>
                     </div>
 
@@ -167,15 +165,15 @@
                         <span>X</span>
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="6">
+                        <input class="gol2" type="number" onkeyup="vencedor3()">
                         <label for="gol"></label>
                     </div>
 
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time6" type="text" class="validate clas">
+                        <label for="time6"></label>
+
                     </div>
                 </div>
             </div>
@@ -183,13 +181,13 @@
                 <p>Quartas 4</p>
                 <div class="row">
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time7" type="text" class="validate clas">
+                        <label for="time7"></label>
+
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="7">
+                        <input class="gol1" type="number">
                         <label for="gol"></label>
                     </div>
 
@@ -197,21 +195,21 @@
                         <span>X</span>
                     </div>
 
-                    <div class="input-field col s2 box-gol">
-                        <input id="gol2" type="number">
+                    <div class="input-field col s2 box-gol" id="8">
+                        <input class="gol2" type="number" onkeyup="vencedor4()">
                         <label for="gol"></label>
                     </div>
 
                     <div class="input-field col s3">
-                        <select>
-                            <option value="a">Time 1</option>
-                        </select>
+                        <input id="time8" type="text" class="validate clas">
+                        <label for="time8"></label>
+
                     </div>
                 </div>
             </div>
             <div class="botao">
                 <a href="semi.html" class="waves-effect waves-light btn   blue darken-4 proximo">Proximo Grupo</a>
-                <a class="waves-effect waves-light btn  orange darken-3" onclick="vencedores()">Salvar Vencedores</a>
+                <a class="waves-effect waves-light btn  orange darken-3" onclick="salvar()">Salvar Vencedores</a>
             </div>
         </div>
     </div>
@@ -221,8 +219,8 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="js/principal.js"></script>
-    <script src="js/tabela-dinamica.js"></script>
+    <script src="js/quarta.js"></script>
+   
 
 </body>
 
